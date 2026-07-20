@@ -20,13 +20,18 @@ export default function Footer() {
                             <h2 className="mb-6 text-sm font-semibold text-gray-900 uppercase">Resources</h2>
                             <ul className="text-gray-500 font-medium">
                                 <li className="mb-4">
-                                    <Link to="/" className="hover:underline">
+                                    <Link to="/" className="hover:underline hover:text-gray-900">
                                         Home
                                     </Link>
                                 </li>
-                                <li>
-                                    <Link to="/about" className="hover:underline">
+                                <li className="mb-4">
+                                    <Link to="/about" className="hover:underline hover:text-gray-900">
                                         About
+                                    </Link>
+                                </li>
+                                <li>
+                                    <Link to="/faq" className="hover:underline hover:text-gray-900">
+                                        FAQ
                                     </Link>
                                 </li>
                             </ul>
@@ -36,16 +41,25 @@ export default function Footer() {
                             <ul className="text-gray-500 font-medium">
                                 <li className="mb-4">
                                     <a
-                                        href="https://github.com/hiteshchoudhary"
-                                        className="hover:underline"
+                                        href="https://github.com/AnandKumarSinghTech"
+                                        className="hover:underline hover:text-gray-900"
                                         target="_blank"
                                         rel="noreferrer"
                                     >
                                         Github
                                     </a>
                                 </li>
+                                <li className="mb-4">
+                                    <a href="https://www.linkedin.com/in/anandkumar-singh/"
+                                        className="hover:underline hover:text-gray-900"
+                                        target="_blank"
+                                        rel="noreferrer"
+                                    >
+                                        LinkedIN
+                                    </a>
+                                </li>
                                 <li>
-                                    <Link to="/" className="hover:underline">
+                                    <Link to="/" className="hover:underline hover:text-gray-900">
                                         Discord
                                     </Link>
                                 </li>
@@ -55,12 +69,12 @@ export default function Footer() {
                             <h2 className="mb-6 text-sm font-semibold text-gray-900 uppercase">Legal</h2>
                             <ul className="text-gray-500 font-medium">
                                 <li className="mb-4">
-                                    <Link to="#" className="hover:underline">
+                                    <Link to="#" className="hover:underline hover:text-gray-900">
                                         Privacy Policy
                                     </Link>
                                 </li>
                                 <li>
-                                    <Link to="#" className="hover:underline">
+                                    <Link to="#" className="hover:underline hover:text-gray-900">
                                         Terms &amp; Conditions
                                     </Link>
                                 </li>
@@ -71,9 +85,9 @@ export default function Footer() {
                 <hr className="my-6 border-gray-200 sm:mx-auto lg:my-8" />
                 <div className="sm:flex sm:items-center sm:justify-between">
                     <span className="text-sm text-gray-500 sm:text-center">
-                        © 2023
-                        <a href="https://hiteshchoudhary.com/" className="hover:underline">
-                            hiteshchoudhary
+                        © 2026
+                        <a href="https://github.com/AnandKumarSinghTech" className="hover:underline">
+                            AnandKumarSingh
                         </a>
                         . All Rights Reserved.
                     </span>
@@ -94,7 +108,7 @@ export default function Footer() {
                             </svg>
                             <span className="sr-only">Facebook page</span>
                         </Link>
-                        <Link to="#" className="text-gray-500">
+                        <Link to="#" className="text-gray-500 hover:text-gray-900">
                             <svg
                                 className="w-4 h-4"
                                 aria-hidden="true"
@@ -106,7 +120,7 @@ export default function Footer() {
                             </svg>
                             <span className="sr-only">Discord community</span>
                         </Link>
-                        <Link to="#" className="text-gray-500">
+                        <Link to="#" className="text-gray-500 hover:text-gray-900">
                             <svg
                                 className="w-4 h-4"
                                 aria-hidden="true"
@@ -122,7 +136,7 @@ export default function Footer() {
                             </svg>
                             <span className="sr-only">Twitter page</span>
                         </Link>
-                        <Link to="#" className="text-gray-500">
+                        <Link to="#" className="text-gray-500 hover:text-gray-900">
                             <svg
                                 className="w-4 h-4"
                                 aria-hidden="true"
@@ -138,7 +152,7 @@ export default function Footer() {
                             </svg>
                             <span className="sr-only">GitHub account</span>
                         </Link>
-                        <Link to="#" className="text-gray-500">
+                        <Link to="#" className="text-gray-500 hover:text-gray-900">
                             <svg
                                 className="w-4 h-4"
                                 aria-hidden="true"
